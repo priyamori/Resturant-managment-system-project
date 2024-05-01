@@ -1,0 +1,85 @@
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-image: url('https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg'); /* Yahan image ka URL daaliye */
+    
+}
+
+/* Baaki code waisa hi jaise aapne diya hai */
+.food-name {
+    margin-top: 0;
+}
+
+.food-price {
+    margin-bottom: 0;
+}
+
+.quantity-select {
+    margin-top: 5px;
+}
+
+.food-details {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 10px rgb(10, 10, 10);
+    background-color: rgb(250, 247, 247);
+    border: 1px solid #0c0c0c;
+    margin-bottom: 20px;
+    background-image: url('https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg'); /* Yahan bhi image ka URL daal sakte hain */
+    width: 300px;
+    height: 400px;
+    background: rgba(20, 20, 20, 0.3);
+   backdrop-filter: blur(10px);    
+
+.form-group {
+    text-align: center;
+    width: 100%; /* Yeh percent incorrect lag raha tha, isliye 100% kar diya */
+}
+
+.food-image {
+    height: 200px;
+    width: 300px;
+}
+
+.add-to-cart {
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    margin-bottom: 500px;
+    margin-top: 10px;
+    background-color: rgb(111, 158, 18);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(106, 168, 106);
+}
+
+.place-order {
+    margin-right: 10px;
+    margin-bottom: 500px;
+    margin-top: 10px;
+    background-color: rgb(111, 158, 18);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.full-width {
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
