@@ -10,8 +10,6 @@
     background-image: url('https://img.freepik.com/free-photo/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai_188544-13382.jpg'); /* Yahan image ka URL daaliye */
     
 }
-
-/* Baaki code waisa hi jaise aapne diya hai */
 .food-name {
     margin-top: 0;
 }
@@ -39,7 +37,7 @@
 
 .form-group {
     text-align: center;
-    width: 100%; /* Yeh percent incorrect lag raha tha, isliye 100% kar diya */
+    width: 100%; 
 }
 
 .food-image {
